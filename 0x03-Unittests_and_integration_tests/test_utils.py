@@ -24,4 +24,3 @@ class TestAccessNestedMap(unittest.TestCase):
                                result: Union[Dict, int]) -> None:
         """Access test"""
         self.assertEqual(utils.access_nested_map(nested_map, path), result)
-        print("ok")
